@@ -19,3 +19,23 @@ header{
  background-attachment: fixed;
  background-position: center;
 }
+h1 {
+text-align: center;
+}
+main{
+ padding-top: 15px;
+}
+aside {
+ pading: 30px;
+ background-color: #ffeead;
+}
+article {
+ pading: 30px;
+ background-color: #ffcc5c;
+ color:white;
+}
+footer{
+ padding: 30px;
+ background-color; #588c7e;
+ color:white;
+}
