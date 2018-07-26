@@ -1,11 +1,13 @@
 body {
- background-color: #d5f4e6;
+ background-color: #96ceb4;
  padding: 30px;
+ color:white;
 }
 nav {
  padding: 30px;
- background-color: #80ced6;
+ background-color: #ff6f69;
  position:sticky;
  top: 0;
  text-shadow: 1px 1px 0 #444;
+ color: white;
 }
