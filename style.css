@@ -24,17 +24,25 @@ text-align: center;
 }
 main{
  padding-top: 15px;
+ display:grid;
+ grid-template-areas:
+  "aside article article"
+  "aside footer footer";
+ grid-gap: 30px;
 }
 aside {
+ grid-area: aside;
  pading: 30px;
  background-color: #ffeead;
 }
 article {
+ grid-area: article;
  pading: 30px;
  background-color: #ffcc5c;
  color:white;
 }
 footer {
+ grid-area:footer;
  padding: 30px;
  background-color: #587e76;
 }
